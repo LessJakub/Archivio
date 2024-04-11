@@ -1,0 +1,23 @@
+{
+    "isServerConfiguration": true,
+    "serverHost": "localhost",
+    "serverPort": 1234,
+    "logPattern": "{DATE}: [CLIENT] [{LOG_LEVEL}] {MESSAGE}",
+    "loggersConfiguration": [
+        {
+            "fileNamePattern": "{DATE_DAY}.log",
+            "filePath": "server",
+            "logLevels": [
+                0
+            ],
+            "loggerType": 1
+        },
+        {
+            "consoleName": "ArchivioLogger",
+            "logLevels": [
+                0
+            ],
+            "loggerType": 2
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+{
+    "isServerConfiguration": true,
+    "serverHost": "localhost",
+    "serverPort": 1234,
+    "logPattern": "{DATE}: [{LOG_LEVEL}] {MESSAGE}",
+    "loggersConfiguration": [
+        {
+            "fileNamePattern": "{DATE_DAY}.log",
+            "filePath": "server/debug",
+            "logLevels": [
+                0
+            ],
+            "logPattern": "{DATE}: [{LOG_LEVEL}] {MESSAGE}",
+            "loggerType": 1
+        }
+    ]
+}

@@ -1,0 +1,23 @@
+{
+    "logLevels": [
+        0
+    ],
+    "logPattern": "{DATE}: [SERVER] [{LOG_LEVEL}] {MESSAGE}",
+    "loggersConfiguration": [
+        {
+            "consoleName": "ArchivioLogger",
+            "logLevels": [
+                0
+            ],
+            "loggerType": 2
+        },
+        {
+            "fileNamePattern": "{DATE}.log",
+            "filePath": "logs",
+            "logLevels": [
+                0
+            ],
+            "loggerType": 1
+        }
+    ]
+}

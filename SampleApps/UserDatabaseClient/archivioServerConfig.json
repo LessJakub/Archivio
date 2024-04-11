@@ -1,0 +1,44 @@
+{
+    "isServerConfiguration": true,
+    "serverHost": "localhost",
+    "serverPort": 1234,
+    "logPattern": "{DATE}: [{LOG_LEVEL}] {MESSAGE}",
+    "loggersConfiguration": [
+        {
+            "fileNamePattern": "SERVER {DATE}.log",
+            "filePath": "server/debug",
+            "logLevels": [
+                1
+            ],
+            "logPattern": "1 {DATE}: [{LOG_LEVEL}] {MESSAGE}",
+            "loggerType": 1
+        },
+        {
+            "fileNamePattern": "SERVER {DATE}.log",
+            "filePath": "server/info",
+            "logLevels": [
+                2
+            ],
+            "logPattern": "2 {DATE}: [{LOG_LEVEL}] {MESSAGE}",
+            "loggerType": 1
+        },
+        {
+            "fileNamePattern": "SERVER {DATE}.log",
+            "filePath": "server/warning",
+            "logLevels": [
+                3
+            ],
+            "logPattern": "3 {DATE}: [{LOG_LEVEL}] {MESSAGE}",
+            "loggerType": 1
+        },
+        {
+            "fileNamePattern": "SERVER {DATE}.log",
+            "filePath": "server/error",
+            "logLevels": [
+                4
+            ],
+            "logPattern": "4 {DATE}: [{LOG_LEVEL}] {MESSAGE}",
+            "loggerType": 1
+        }
+    ]
+}
